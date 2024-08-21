@@ -11,7 +11,21 @@ DESTINATION: domain_name/ip_address of the target host
 -i: optional name of the interface to be used, default enp0s3
 -t: optional number of seconds till network response, default 3
 ```
-## example output
+## example outputs
+```
+$ ./trc_route 1337.ma
+TRC_route to 1337.ma (104.18.32.248)
+ ,  from enp0s3 (10.13.100.30)
+ 1  10.13.254.254 [10.13.254.254] 0.674 ms
+ 2  10.21.1.1 [nat.1337.ma] 0.284 ms
+ 3  197.230.30.145 [197.230.30.145] 0.310 ms
+ 4  10.43.88.105 [10.43.88.105] 2.293 ms
+ 5  10.43.82.105 [10.43.82.105] 18.448 ms
+ 6  10.43.82.106 [10.43.82.106] 18.944 ms
+ 7  197.230.41.102 [197.230.41.102] 26.091 ms
+ 8  104.18.32.248 [104.18.32.248] 19.936 ms
+```
+
 ```
 $ ./trc_route 162.252.205.130
 TRC_route to 162.252.205.130 (162.252.205.130)
