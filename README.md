@@ -7,9 +7,10 @@ trc_route: A network tracing utility designed to map the path that data packets 
 ## usage
 ```
 $ ./trc_route DESTINATION [-i=INTERFACE] [-t=TIMEOUT]
+
 DESTINATION: domain_name/ip_address of the target host
--i: optional name of the interface to be used, default enp0s3
--t: optional number of seconds till network response, default 3
+         -i: optional name of the interface to be used, default enp0s3
+         -t: optional number of seconds till network response, default 3
 ```
 ## example outputs
 ```
