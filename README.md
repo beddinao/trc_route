@@ -1,6 +1,6 @@
-# TRC_ROUTE
+# *`TRC_ROUTE`*
 ## about
-trc_route: A network tracing utility designed to map the path that data packets take to reach a specified destination. By sending packets with increasing time-to-live (TTL) values, trc_route identifies the routers along the path, providing valuable insights into network topology and potential issues. While offering a fundamental tracing capability, trc_route may have limitations compared to fully featured traceroute tools, such as missing advanced options or detailed hop information.
+network tracing utility designed to map the path that data packets take to reach a specified destination. By sending packets with increasing time-to-live (TTL) values, trc_route identifies the routers along the path, providing valuable insights into network topology and potential issues. While offering a fundamental tracing capability, trc_route may have limitations compared to fully featured traceroute tools, such as missing advanced options or detailed hop information.
 ## requirements
 - linux
 - root privilege
